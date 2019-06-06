@@ -11,7 +11,6 @@
 * Make sure you use the component prop, not render.
 
 ### Routes
-* /              -> Dashboard
 * /charts        -> Charts
 * /tables        -> Tables
 * /settings      -> Settings
@@ -19,6 +18,7 @@
 * /profiles      -> Profiles
 * /marquee/:text -> Marquee
 * /profile/:id   -> Profile
+* /              -> Dashboard
 
 ### Create these components. The content of the components is not important, just put anything `<div> whatever </div>`
 * Charts.js
