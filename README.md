@@ -1,5 +1,5 @@
 ### Setup
-* Fork, Clone, yarn install, yarn start
+* Fork, Clone, npm install, npm start
 * Slight quirk - refreshing doesn't work from any path other than the default one so you will have to go back to the default path to refresh
 
 ### App.js
