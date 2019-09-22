@@ -30,7 +30,7 @@ function TransactionsPanel(props) {
                 </table>
             </div>
             <div className="text-right">
-                <a href="#">View All Transactions <i className="fa fa-arrow-circle-right"></i></a>
+                <a href="#view">View All Transactions <i className="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
     </div> );

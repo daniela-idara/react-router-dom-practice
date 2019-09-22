@@ -17,7 +17,7 @@ function TasksPanel(props) {
                         
                     </div>
                     <div className="text-right">
-                        <a href="#">View All Activity <i className="fa fa-arrow-circle-right"></i></a>
+                        <a href="#activity">View All Activity <i className="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
           </div>

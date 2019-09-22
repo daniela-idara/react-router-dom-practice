@@ -21,6 +21,7 @@ function App() {
           <SideNav />
         </nav>
         <div style={{backgroundColor: "white"}}>
+        {
           <Switch>
             <Route path='/charts' component={Charts} />
             <Route path='/tables' component={Tables} />
@@ -31,6 +32,7 @@ function App() {
             <Route path='/profile/:id' component={Profile} />
             <Route path='/' component={Dashboard} />
           </Switch>
+          }
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ function Orders(props) {
             </div>
           </div>
         </div>
-        <a href="#">
+        <a href="#orders">
           <div className="panel-footer">
             <span className="pull-left">View Details</span>
             <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>

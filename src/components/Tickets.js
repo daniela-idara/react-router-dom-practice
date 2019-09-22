@@ -16,7 +16,7 @@ function Tickets(props) {
             </div>
           </div>
         </div>
-        <a href="#">
+        <a href="#tickets">
           <div className="panel-footer">
             <span className="pull-left">View Details</span>
             <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>

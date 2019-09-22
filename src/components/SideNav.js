@@ -13,15 +13,41 @@ function SideNav() {
           }
         </li>
         <li>
-          <a href="charts.html">
+          <Link to="/charts">
             <i className="fa fa-fw fa-bar-chart-o" /> Charts
-          </a>
+          </Link>
         </li>
+
         <li>
-          <a href="tables.html">
+          <Link to="/tables">
             <i className="fa fa-fw fa-table" /> Tables
-          </a>
+          </Link>
         </li>
+
+        <li>
+          <Link to="/profiles">
+            <i className="fa fa-user" /> Profiles
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/wall">
+            <i className="fa fa-thumb-tack" /> Wall
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/marquee/This is the Secret Marquee Message!">
+            <i className="fa fa-bullhorn" /> Secret Message
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/settings">
+            <i className="fa fa-cog" /> Settings
+          </Link>
+        </li>
+
       </ul>
     </div>);  
 }

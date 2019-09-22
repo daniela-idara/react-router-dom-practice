@@ -4,7 +4,7 @@ import DateTime from "./DateTime";
 function MessagePreview(props) {
   return (    
     <li className="message-preview">
-      <a href="#">
+      <a href="#preview">
         <div className="media">
           <span className="pull-left">
             <img className="media-object" src="http://placehold.it/50x50" alt="" />
